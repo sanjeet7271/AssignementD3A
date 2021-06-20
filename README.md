@@ -1,4 +1,4 @@
-# Singularity -> Python selenium BDD Framework
+# Python selenium BDD Framework
 
 ## Features supported
 1. Functional UI Automation by using Selenium
