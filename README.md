@@ -14,12 +14,13 @@
 2. pip install behave
 3. pip install allure-behave
 
-## How to install & Run using command prompt
+## How to Run 
 1. Please clone git project ot required location
 2. import project into PyCharm
 3. Go to `Features\`
-4. Run command: `behave Features\`
-5. Run command for allure report: `behave -f allure_behave.formatter:AllureFormatter -o reports/ Features/`
+4. Go to `Configuration\Config.ini` and Change browser name to Chrome/Firefox to run test case on required browser
+5. Run command: `behave Features\`
+6. Run command for allure report: `behave -f allure_behave.formatter:AllureFormatter -o reports/ Features/`
 
 	
 ## To view Report 
