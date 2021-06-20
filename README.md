@@ -24,4 +24,5 @@
 
 	
 ## To view Report 
-1. Go to the Screenshots `\Screenshots` 
+1. Go to the Screenshots `\Screenshots` to check failed test cases
+2. Go to Reports '\Reports' to check allure repors
