@@ -9,15 +9,15 @@ class ReadConfig:
         try:
             url=config.get('common info', 'baseUrl')
             return url
-        except:
+        except FileNotFoundError:
             assert False, "Config loading failed"
 
     @staticmethod
     def getBrowserName():
         try:
-            browsername = config.get('common info', 'Browser')
-            return browsername
-        except:
+            browser_name = config.get('common info', 'Browser')
+            return browser_name
+        except FileNotFoundError:
             assert False, "Config loading failed"
 
     @staticmethod
@@ -25,5 +25,5 @@ class ReadConfig:
         try:
             password = config.get('common info', 'password')
             return password
-        except:
+        except FileNotFoundError:
             assert False, "Config loading failed"
